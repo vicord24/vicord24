@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Java/Python
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me: jiayingye05@gmail.com
-- ⚡ Fun fact: I like 
+- ⚡ Fun fact: I like topic with F1 relative
 
 <!---
 vicord24/vicord24 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
