@@ -5,6 +5,8 @@ import { makeSidebar } from './data/sidebar'
 export default defineConfig({
   title: "Vicord Blog",
   description: "A blog of journey for an undergrad",
+
+  base: "/vicord24/",
   
   cleanUrls: true,
 
