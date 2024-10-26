@@ -1,21 +1,19 @@
 <template>
   <div class="article-card">
-    <a class="article-link" :href="link">
-      <div class="card-content">
-        <h1 class="title">{{ title }}</h1>
-        <p class="description">{{ desc }}</p>
+    <div class="card-content" @click="goto(link)">
+      <h1 class="title">{{ title }}</h1>
+      <p class="description">{{ desc }}</p>
 
-        <div class="info">
-          <span class="date">{{ date }}</span>
+      <div class="info">
+        <span class="date">{{ date }}</span>
 
-          <div class="tags">
-            <span class="tag" v-for="(tag, index) in tags" :key="index">
-              {{ tag }}
-            </span>
-          </div>
+        <div class="tags">
+          <span class="tag" v-for="(tag, index) in tags" :key="index">
+            {{ tag }}
+          </span>
         </div>
       </div>
-    </a>
+    </div>
   </div>
 </template>
 
@@ -27,12 +25,6 @@
   margin: 16px 0;
   transition: transform 0.2s;
   overflow: hidden;
-}
-
-.article-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
 }
 
 .card-content {
@@ -81,11 +73,16 @@
 </style>
 
 <script setup lang="ts">
+import { useRouter } from "vitepress";
+
 const { title, date, desc, tags, link } = defineProps([
   "title",
   "date",
   "desc",
   "tags",
   "link",
-])
+]);
+
+const router = useRouter();
+const goto = (link: string) => router.go(link)
 </script>
