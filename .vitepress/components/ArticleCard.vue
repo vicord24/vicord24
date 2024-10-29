@@ -84,5 +84,6 @@ const { title, date, desc, tags, link } = defineProps([
 ]);
 
 const router = useRouter();
-const goto = (link: string) => router.go(link)
+const goto = (link: string) => router.go("/vicord24" + link);
+
 </script>
