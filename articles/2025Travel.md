@@ -13,6 +13,15 @@ have no idea what the flower is, cherry blossoms? just a guess
 ![Cathy](assets/Cathy.jpg)
 
 
+## Tokyo May
+![Shibuya](assets/Shibuya.jpg)
+
+* first place we went: __Shibuya涩谷__
+---
+
+<div style="display: flex; gap: 16px;">
+  <img src="./assets/Persona5.jpg" style="width: 50%;">
+  <img src="./assets/Persona3.jpg" style="width: 50%;">
 ## Tokyo may
 ![Shibuya](assets/Shibuya.jpg)
 
@@ -29,6 +38,25 @@ tribute to <span style="color: red;">Persona5</span> and <span style="color: blu
 ---
 
 <div style="display: flex; gap: 16px;">
+  <img src="./assets/Asakusa.jpg" style="width: 50%;">
+  <img src="./assets/ImperialPalace.jpg" style="width: 50%;">
+</div>
+
+* __Asakusa浅草寺__ and __Imperial Palace__
+
+---
+![HakoneShrine](assets/HakoneShrine.jpg)
+
+* __Hakone Shrine箱根神社__
+
+---
+
+<div style="display: flex; gap: 16px;">
+  <img src="./assets/Kamakura.jpg" style="width: 50%;">
+  <img src="./assets/KamakuraDaibutsu.jpg" style="width: 50%;">
+</div>
+
+* __Kamakura镰仓__ and __Kamakura Daibutsu__
   <img src="assets/Asakusa.jpg" style="width: 50%;">
   <img src="assets/ImperialPalace.jpg" style="width: 50%;">
 </div>
