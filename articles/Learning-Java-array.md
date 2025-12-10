@@ -1,6 +1,6 @@
 ---
 title: Learning Java array
-date: 2024/10/30
+date: 2024/11/30
 desc: Some basic Java methods
 tags: Study/CS007/Array
 ---
